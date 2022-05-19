@@ -5,6 +5,6 @@ git reset --hard HEAD
 git clean -f -d -n
 git pull
 
------- commit
+------ UI commit work around
 in eclipse -> git staging -> commit
 in cmd -> git push
