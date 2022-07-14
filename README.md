@@ -87,3 +87,22 @@ git config --global core.editot nano.exe
    		git log --oneline --> get the commit ID
    		git revert dd624a1
    		git add commit push
+
+   ------ git stash -- store work before going to another branch (otherwise commit push is needed)
+   	list
+   	apply -- last element in stash
+   	clear
+	
+	git add .
+	git stash save
+	git stash
+	git stash list -- gto get stash number
+
+	git stash apply  <the stash number>
+
+	------ gitignore git status won't list ingore files 
+		*.class
+		target/
+		secret.html
+
+
